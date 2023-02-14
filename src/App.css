@@ -1,0 +1,46 @@
+body,
+html {
+  background-color: #051226;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#main-container {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 1rem;
+}
+
+.leter>h1 {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#main-container img {
+  border-radius: 100%;
+  border: 3px solid #3284FF;
+  width: 200px;
+}
+
+#main-container img:hover {
+  border: 3px solid #53FF79;
+}
